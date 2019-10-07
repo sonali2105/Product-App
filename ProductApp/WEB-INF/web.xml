@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+			<servlet-name>sp</servlet-name>
+			<servlet-class>SearchProduct</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>sp</servlet-name>
+			<url-pattern>/sp</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>np</servlet-name>
+		<servlet-class>NewProduct</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>np</servlet-name>
+		<url-pattern>/np</url-pattern>
+	</servlet-mapping>
+</web-app>
